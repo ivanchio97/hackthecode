@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  background-color: black;
+  color: #0f0;
+  font-family: 'Courier New';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-size: 20px;
+}
+.nivel{
+  position: absolute;
+  top:5px;
+  left: 0;
+  border-bottom: 1px solid #0f0;
+  width: 100%;
+  text-align: center;
+}
+.btn{
+  background-color: #000;
+  color: #0f0;
+  border: 2px solid #0f0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: #0f0;
+  color: #000;
+  box-shadow: 0 0 10px #0f0;
+}
+
+.input {
+  background-color: #000;
+  color: #0f0;
+  border: 2px solid #0f0;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  height: 50px;
+  font-size: 20px;
+}
+
+.input::placeholder {
+  color: #0f0; /* o un tono gris claro */
+  opacity: 0.7; /* Le da un efecto de desvanecimiento */
+}
+
+.input:focus {
+  border-color: #00ff00; /* Brillo más intenso al enfocar */
+  box-shadow: 0 0 10px #0f0; /* Efecto de sombra al enfocar */
+}
+.pw1{
+  color: black;
+}
+.game{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  width: 800px;
+}
+a{
+  color:#0f0;
+}
+
+.containernivel2{
+  display: flex;
+  gap: 30px;
+  margin: 15px 0;
+}
+.containernivel2 button{
+  border: 1px solid #0f0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  background-color: #000;
+  cursor: pointer;
+  color: #0f0;
+  font-size: 20px;
+}
+.containernivel2 button:active{
+  background-color: whitesmoke;
+}
+.containernivel5{
+  display: flex;
+  gap:20px;
+  
+}
+.containernivel5 button{
+  width: 50px;
+  height: 50px;
+  border: 2px solid #0f0;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+.containernivel5 button{
+  cursor: pointer;
+}
