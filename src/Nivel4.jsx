@@ -12,7 +12,7 @@ function Nivel4() {
   const [conteo, setConteo] = useState(1)
   const [show,setShow] = useState(false)
   function check() {
-    if (pw === "7luces") {
+    if (pw === "7Luces") {
       navigate("/nivel5-hXkojsXupcvXazxtqX")
     } else {
       alert("Contraseña incorrecta")
