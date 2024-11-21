@@ -21,7 +21,7 @@ function Nivel1() {
       <div className='game'>
         <h1>Lograste entrar al sistema</h1>
         <h3>¿Podrás adivinar la siguiente contraseña?</h3>
-        <p>Pista: <a href="#">https://www.link.com</a> </p>
+        <p>Pista: <a href="#"> https://www.link.com</a> </p>
         <input className='input' placeholder='Escribe la contraseña...' value={pw} onChange={(e) => setPw(e.target.value)} />
         <button className='btn' onClick={check}>Comprobar</button>
       </div>

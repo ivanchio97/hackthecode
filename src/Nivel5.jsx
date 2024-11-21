@@ -6,7 +6,7 @@ function Nivel5() {
 
   function check() {
     if (pw === "reno") {
-      navigate("/final-hXkojsXupcvXazxtqX") 
+      navigate("/nivel6-hXkojsXupcvXazxtqX") 
     } else {
       alert("Contraseña incorrecta. ¿Quieres otra pista? búscala en la página")
       setPw("")

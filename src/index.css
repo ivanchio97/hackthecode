@@ -70,6 +70,7 @@ body{
   flex-direction: column;
   gap:20px;
   width: 800px;
+  justify-content: center;
 }
 a{
   color:#0f0;
@@ -109,4 +110,42 @@ a{
 }
 .containernivel5 button{
   cursor: pointer;
+}
+
+.containernivel6{
+  display: flex;
+  gap:20px;
+} 
+.containernivel6 img{
+width: 100px;
+cursor:pointer;
+border-radius: 10px;
+border: 2px solid #0f0;
+}
+.containernivel6 img:active{
+  opacity: 0.3;
+}
+
+.energy{
+  content: "";
+  width: 250px;
+  height: 50px;
+  background-color: #000;
+  border: 1px solid #0f0;
+  margin-left: 280px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -40px;
+}
+
+.pistaDescarga{
+  text-decoration: none;
+}
+.center{
+  display: flex;
+  justify-content: center;
 }

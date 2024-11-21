@@ -12,7 +12,7 @@ function Nivel2() {
   const navigate = useNavigate()
 
   function check(){
-    if (pw === "flor") {
+    if (pw === "flor" || pw === "FLOR") {
       navigate("/nivel3-hXkojsXupcvXazxtqX") 
     } else {
       alert("Contraseña incorrecta.")
