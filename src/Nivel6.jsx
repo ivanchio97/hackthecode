@@ -63,7 +63,7 @@ function Nivel6() {
 
   return (
     <>
-      <h3 className='nivel'>{aumento}</h3>
+      <h3 className='nivel'>Nivel 6</h3>
       <div className='game'>
         { !isActive && <a href='https://i.postimg.cc/QhRbXdPR/nivel6.png' target='_blank' className='pistaDescarga' ><div className='energy' style={{background: colors[conteo] }} >Empieza con el avestruz </div></a>}
         <h1>Esta contraseña te la regalo 😉 </h1>
