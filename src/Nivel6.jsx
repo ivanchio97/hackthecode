@@ -30,7 +30,7 @@ function Nivel6() {
   const [aumento, setAumento] = useState(0)
   function check() {
     if (pw === "animales") {
-      navigate("/final-hXkojsXupcvXazxtqX")
+      navigate("/nivel7-hXkojsXupcvXazxtqX")
     } else {
       alert("Contraseña incorrecta")
       setPw("")

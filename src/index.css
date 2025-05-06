@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -148,4 +150,49 @@ border: 2px solid #0f0;
 .center{
   display: flex;
   justify-content: center;
+}
+.timer{
+  font-family: "Orbitron", sans-serif;
+  color:#0f0;
+  font-weight: 500;
+  font-size: 40px;
+  text-shadow: 0 0 10px #0f0;
+}
+.containernivel7{
+  border: 10px solid #131212;
+  height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #181717;
+  padding: 10px;
+}
+
+.maquina{
+  background-color: #181717;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  border: 8px solid #131212;
+  font-size: 20px;
+}
+.numeross{
+  font-size: 2em;
+  display: flex;
+  gap: 15px;
+}
+.numeross span{
+  background-color: gray;
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+  min-width: 35px;
+  min-height: 55px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

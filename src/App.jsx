@@ -7,6 +7,8 @@ import Nivel3 from './Nivel3'
 import Nivel4 from './Nivel4'
 import Nivel5 from './Nivel5'
 import Nivel6 from './Nivel6'
+import Nivel7 from './Nivel7'
+import Nivel8 from './Nivel8'
 import Final from './Final'
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/nivel4-hXkojsXupcvXazxtqX" element={<Nivel4 />} />
         <Route path="/nivel5-hXkojsXupcvXazxtqX" element={<Nivel5 />} />
         <Route path="/nivel6-hXkojsXupcvXazxtqX" element={<Nivel6 />} />
+        <Route path='/nivel7-hXkojsXupcvXazxtqX' element={<Nivel7 />} />
+        <Route path='/nivel8' element={<Nivel8 />} />
         
         <Route path="/final-hXkojsXupcvXazxtqX" element={<Final />} />
         <Route path='*' element={<h1>Página no encontrada.</h1>} />
