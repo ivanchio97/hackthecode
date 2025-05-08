@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 function Nivel8(){
 
-    const [intentos, setIntentos] = useState(7)
+    const [intentos, setIntentos] = useState(5)
     const [pw0, setPw0] = useState("")
     const navigate = useNavigate()
     const [codigo, setCodigo] = useState("")
