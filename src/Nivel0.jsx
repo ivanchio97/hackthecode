@@ -8,7 +8,7 @@ function Nivel0() {
 
   function check() {
     if (pw0 === "3568") {
-      navigate("/nivel1-h4kojs7upcv2azxtq9") // Redirige a Nivel 1
+      navigate('/dificultad')
     } else {
       alert("Contraseña incorrecta")
       setPw0("")
