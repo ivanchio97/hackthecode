@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 function Nivel8(){
 
-    const [intentos, setIntentos] = useState(5)
+    const [intentos, setIntentos] = useState(7)
     const [pw0, setPw0] = useState("")
     const navigate = useNavigate()
     const [codigo, setCodigo] = useState("")
@@ -22,7 +22,7 @@ function Nivel8(){
 
   function check() {
     if (pw0 === numerotexto) {
-      navigate("/final-hXkojsXupcvXazxtqX")
+      navigate("/prueba")
     } else {
       alert("Contraseña incorrecta")
       setPw0("")

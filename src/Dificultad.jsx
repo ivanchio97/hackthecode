@@ -12,7 +12,7 @@ function Dificultad() {
       }
       else{
         const confirmar = confirm("⚠️ ADVERTENCIA ⚠️ Para la dificultad media debes tener conocimientos básicos de programación. ¿Conitnuar?")
-        if (confirmar) navigate("/nivel9")
+        if (confirmar) navigate("/prueba")
       }
     }
   

@@ -1,6 +1,7 @@
 // Nivel9.js
 import { useEffect, useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
+import './styles2.css'
 
 function Nivel9() {
   const [pw, setPw] = useState("")

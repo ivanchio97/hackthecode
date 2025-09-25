@@ -196,52 +196,9 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.nivel9{
-  height: 300px;
-  width: 800px;
-  background: rgb(0, 217, 255);
-  border-radius: 5px;
-  position: relative;
+.hide{
+  display: none;
 }
-.personaje{
-  font-size: 2.5em;
-  position: absolute;
-  top:96px;
-  left:0px;
-}
-.personaje a{
-  text-decoration: none;
-}
-.muro1{
-  height: 110px;
-  background-color: rgb(199, 98, 39);
-  width: 150px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  color: rgb(199, 98, 39);
-}
-
-.muro2{
-  height: 110px;
-  background-color: rgb(199, 98, 39);
-  width: 150px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: rgb(199, 98, 39);
-}
-.piso{
-  background-color: #e41313;
-  position: absolute;
-  width: 300px;
-  height: 30px;
-  top:160px;
-  color: #e41313;
-}
-.cruzar{
-  position: absolute;
-  border-radius: 25px;
-  right:150px;
-  top:140px;
+.blank{
+  height: 70px;
 }
