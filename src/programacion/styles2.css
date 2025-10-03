@@ -68,8 +68,45 @@
     background-color: transparent;
     border: none;
     color: #0f0;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    width: 30px;
 }
-.code .variable:focus{
+.code .variable2{
+   height: 30px;
+    background-color: transparent;
+    border: none;
+    color: #0f0;
+    font-size: 0.8em;
+    width: 20px;
+    text-align: center;
+}
+
+.code .variable:focus, .variable2:focus{
     outline: none;
+}
+.board{
+    position: relative;
+}
+.board .oculto{
+    background-color: rgb(33, 33, 33);
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.2em;
+    border-radius: 50%;
+    top: 20px;
+    left: 30px;
+    display: none;
+}
+.board .mostrado{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    top: 150px;
+    left: 150px;
+    cursor: pointer;
 }

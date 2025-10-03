@@ -33,7 +33,7 @@ function App() {
         <Route path='/nivel9' element={<Nivel9 /> } />
         <Route path='/nivel10' element={<Nivel10 />} />
         
-        <Route path="/final-hXkojsXupcvXazxtqX" element={<Final />} />
+        <Route path="/final" element={<Final />} />
         <Route path='*' element={<h1>Página no encontrada.</h1>} />
       </Routes>
     </Router>

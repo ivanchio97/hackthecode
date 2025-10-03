@@ -13,7 +13,7 @@ function Nivel9() {
 
   function check() {
     if (pw === numrand) {
-      navigate("/final-hXkojsXupcvXazxtqX") 
+      navigate("/nivel10") 
     } else {
       alert("Contraseña incorrecta")
       setPw("")
